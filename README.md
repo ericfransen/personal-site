@@ -1,13 +1,18 @@
-# gatsby-starter-dimension
-Gatsby starter based on the Dimension site template, designed by [HTML5 UP](https://html5up.net/dimension). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# personal static site
+Quick personal site holder.
 
-## Preview
+Used Gatsby for static site generation:
+https://www.gatsbyjs.org/docs/
 
-http://gatsby-dimension.surge.sh/
 
 ## Installation
+Install this starter by running from your CLI:
+`npm install --global gatsby-cli`
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-dimension https://github.com/ChangoMan/gatsby-starter-dimension`
+Generate a new site: 
+`gatsby new gatsby-site`
 
-Run `gatsby develop` in the terminal to start.
+Go to site and launch server:
+`cd gatsby-site && gatsby develop`
+
+Gatsby will start a hot-reloading development environment accessible at localhost:8000
